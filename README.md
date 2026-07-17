@@ -11,9 +11,19 @@ A simple and aesthetic local AI chatbot based on Gemma 2, written in Python
 NeuroCat написан на чистом Python с использованием универсальных библиотек, поэтому он работает на любой современной операционной системе "из коробки".
 
 * 🐧 **Linux:** Любой современный дистрибутив (Arch Linux, Ubuntu, Fedora и др.). Работает идеально и нативно.
-* 🪟 **Windows:** Windows 10 / Windows 11. ⚠️ Важно для пользователей Windows:
-Если при первом запуске у вас возникает ошибка установки модулей, значит в вашей системе не установлен компилятор C++.
-Скачайте и установите Visual Studio Build Tools(https://visualstudio.microsoft.com/visual-cpp-build-tools/) выберите галочку "Разработка классических приложений на C++" с официального сайта Microsoft, после чего перезапустите скрипт.
+* 🪟 **Windows:** Windows 10 / Windows 11.
+
+
+
+### 🛠 Системные зависимости (Компиляторы)
+
+Для работы нейросети требуется компиляция движка `llama-cpp-python` в вашей системе:
+
+*   **Arch Linux:** Все зависимости будут установлены автоматически при сборке пакета из [AUR]. Дополнительных действий не требуется.
+*   **Windows:** Перед запуском необходимо установить **[Visual Studio Build Tools](https://visualstudio.microsoft.com/visual-cpp-build-tools/)**. При установке выберите рабочую нагрузку *"Разработка классических приложений на C++"*.
+*   **Ubuntu / Debian / Fedora:** Убедитесь, что у вас установлены инструменты сборки (GCC, Make, Python Development headers).
+    *   *Ubuntu/Debian:* `sudo apt install build-essential python3-dev`
+    *   *Fedora:* `sudo dnf groupinstall "Development Tools"`
 
 **Требования к ПО:**
 * Установленный **Python 3.8** или выше (рекомендуются версии **3.10 — 3.12**).
