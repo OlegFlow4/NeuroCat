@@ -1,3 +1,5 @@
+<img width="1492" height="842" alt="image" src="https://github.com/user-attachments/assets/00954ff1-65f0-44ca-aeaf-9fad4850c067" />
+
 # NeuroCat
 A simple and aesthetic local AI chatbot based on Gemma 2, written in Python
 # 🐱 NeuroCat v1.2 Release
