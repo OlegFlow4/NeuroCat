@@ -14,12 +14,11 @@ NeuroCat написан на чистом Python с использованием
 * 🪟 **Windows:** Windows 10 / Windows 11.
 
 
-
 ### 🛠 Системные зависимости (Компиляторы)
 
 Для работы нейрокота требуется компиляция движка `llama-cpp-python` в вашей системе:
 
-*   **Arch Linux:** Все зависимости будут установлены автоматически при сборке пакета из [AUR]. Дополнительных действий не требуется.
+*   **Arch Linux:** Все зависимости будут установлены автоматически при сборке пакета из репозитория AUR.
 *   **Windows:** Перед запуском необходимо установить **[Visual Studio Build Tools](https://visualstudio.microsoft.com/visual-cpp-build-tools/)**. При установке выберите рабочую нагрузку *"Разработка классических приложений на C++"*.
 *   **Ubuntu / Debian / Fedora:** Убедитесь, что у вас установлены инструменты сборки (GCC, Make, Python Development headers).
     *   *Ubuntu/Debian:* `sudo apt install build-essential python3-dev`
